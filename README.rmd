@@ -1,6 +1,6 @@
 # A Deep Learning Model for GO policy and value prediction.
 
-This project aims at improving a given base model (a ResNet model, given in golois.py) that predicts GO games' policy and value.
+This project aims at improving a given base model (a ResNet model, given in `golois.py`) that predicts GO games' policy and value.
 
 All files except `final_main.py` were provided. The latter implements the improved model.
 Initially changes of architecture have been attempted : Use of Bottleneck blocks (and ResNet B blocks) instead of simple ResNet blocks. The base model remains better.
